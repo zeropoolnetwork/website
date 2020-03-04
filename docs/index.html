@@ -29,29 +29,37 @@
     <div style="max-width:800px" class="text-center">
         <h1 style="color: black; text-transform:uppercase">Privacy solution for Ethereum</h1>
         <p>ZeroPool is a <b>much more advanced privacy solution than any mixer</b>. It allows you to:</p>
-        <p>• Hide amount, source and destination addresses from any external observer<br>
+        <p> • Hide amount, source and destination addresses from any external observer<br>
             • Store and do atomic swap of ETH and any ERC20 tokens
         </p>
-        <h4>It consists of two parts:</h4>
-        <p>
-            • Smart contract with ZKP and UTXO under the hood <br>
-            • Wallet - chrome extension that generates key pairs on <a
-                href="https://iden3-docs.readthedocs.io/en/latest/iden3_repos/research/publications/zkproof-standards-workshop-2/baby-jubjub/baby-jubjub.html">BabyJubJub</a>
-            elliptic curve.
-        </p>
-        <br>
+        
         <h4>What is under the hood?</h4>
-        • Pedersen Hash
-        • <a href="https://github.com/zeropoolnetwork/circomlib/blob/d1ad9cc8dc9a7b3f6a5b98f7b97c714064a3a1f6/circuits/ecvrfpedersen.circom">ECVRF</a> for nullifier
-        • Groth16
-        • EDDSA for UTXO signatures
-        • MiMC-hash
-        <p>You can find detailed explanation on the cryptography on <a
-                href="https://ethresear.ch/t/state-of-zeropool-scaling-anonymous-transactions-for-ethereum/6946">ethresear.ch</a>
+        <p>• Explanation on the design & cryptography on 
+            <a href="https://ethresear.ch/t/zeropool-explanation/6122">ethresear.ch</a>
+        </p>
+        <p>• Circom / Groth16 / Poseidon / ECVRF / BabyJubJub</p>
+        
+        <p>• Solidity / Typescript / Angular / NestJs / RxJS</p>
+        <p>• Optimistic rollup</p>
+        
+
+        <h4>You can try it out today!</h4>
+        <p>
+            <a aria-label="Testnet Wallet"
+               href="https://app.zeropool.network/" class="btn btn-lg btn-outline-dark" role="button">Testnet</a>
+
+            <a aria-label="Mainet Wallet"
+               href="https  ://testnet.app.zeropool.network/welcome" class="btn btn-lg btn-outline-dark" role="button">Mainnet</a>
         </p>
 
+        <h4>Give us Feedback:</h4>
+            <a aria-label="@ZeroPoolNetwork on Telegram"
+               href="https://t.me/ZeroPoolCommunity" class="btn btn-lg btn-outline-dark" role="button">Telegram</a>
+        </p>
+        <br>
+
         <h4>It is open source</h4>
-        <p>This R&D project was initially bootstrapped on the <a href="https://eth.boston/">ETH Boston hackathon</a> (<a href="https://devpost.com/software/zeropool">devpost</a>).<br>
+        <p>This R&D project was initially bootstrapped on the<br><a href="https://eth.boston/">ETH Boston hackathon</a> (<a href="https://devpost.com/software/zeropool">devpost</a>).<br>
             Later on, ZeroPool <a href="https://media.consensys.net/one-million-ethereum-developers-five-consensys-announcements-from-devcon-5-28520ce63d73"> got a grant from consensus</a>.
             <br>
             <b>At the moment it's in the stage of active development</b>
